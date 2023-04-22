@@ -1,4 +1,4 @@
-# Candid
+# Naive-Co/Candid
 
 > Custom Laravel starter app. GDPR Compliant. Secure. Opinionated.
 
@@ -11,10 +11,24 @@
 ---
 
 ## Backend
-- PHP ^8.1
-- livewire/livewire
-- laravel/jetstream
-- pestphp/pest
+
+### Requirements
+- php ^8.1
+- ext-intl *
+
+### Packages
+- laravel/framework ^10
+- livewire/livewire ^2
+- laravel/jetstream ^3
+- laravel/horizon ^5
+
+### Development
+- laravel/telescope ^4
+- laravel/pint ^1
+- nunomaduro/larastan ^2
+- barryvdh/laravel-ide-helper ^2
+- barryvdh/laravel-debugbar ^3
+- pestphp/pest ^2
 
 ---
 
@@ -28,7 +42,7 @@ The `name` property has been splitted in two separate fields : `firstname` and `
 
 ## Configuration
 
-### Languages
+### Localisation
 
 Install desired language
 
