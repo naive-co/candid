@@ -1,9 +1,10 @@
 {
-    "name": "laravel/laravel",
+    "name": "naive-co/candid",
     "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "description": "An opinionated laravel starter",
+    "keywords": ["framework", "laravel", "starter"],
     "license": "MIT",
+    "repositories": [],
     "require": {
         "php": "^8.1",
         "ext-intl": "*",
@@ -28,7 +29,9 @@
         "nunomaduro/collision": "^7.0",
         "nunomaduro/larastan": "^2.0",
         "pestphp/pest": "^2.0",
+        "pestphp/pest-plugin-arch": "^2.1",
         "pestphp/pest-plugin-laravel": "^2.0",
+        "pestphp/pest-plugin-livewire": "^2.0",
         "spatie/laravel-ignition": "^2.0"
     },
     "autoload": {

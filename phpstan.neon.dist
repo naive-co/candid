@@ -10,12 +10,13 @@ parameters:
     level: 9
 
     checkGenericClassInNonGenericObjectType: false
-    #treatPhpDocTypesAsCertain: false
+    # treatPhpDocTypesAsCertain: true
+    checkOctaneCompatibility: true
+    checkModelProperties: true
+    checkMissingIterableValueType: false
 
 #    ignoreErrors:
 #        - '#PHPDoc tag @var#'
 #
 #    excludePaths:
 #        - ./*/*/FileToBeExcluded.php
-#
-#    checkMissingIterableValueType: false
