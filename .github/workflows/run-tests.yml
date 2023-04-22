@@ -87,10 +87,10 @@ jobs:
       # - name: Clear Config
       #   run: php artisan config:clear
 
-      # - name: Compiling assets
-      #   run: |
-      #     npm install
-      #     npm run build
+      - name: Compiling assets
+        run: |
+          npm install
+          npm run build
 
       - name: Test with PEST
         # env:
