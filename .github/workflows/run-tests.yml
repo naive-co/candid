@@ -93,4 +93,4 @@ jobs:
 
       - name: Test with phpunit
         # env:
-        run: vendor/bin/pest --p --coverage
+        run: vendor/bin/pest -p --coverage
