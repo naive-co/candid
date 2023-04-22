@@ -48,8 +48,8 @@ jobs:
 
       - name: Get composer cache directory
         id: composer-cache
-        run: echo "::set-output name=dir::$(composer config cache-files-dir)"
-        # run: echo "name=dir::$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
+        # run: echo "::set-output name=dir::$(composer config cache-files-dir)"
+        run: echo "dir=$(composer config cache-files-dir)" >> $GITHUB_ENV
 
       - name: Cache composer dependencies
         uses: actions/cache@v3
@@ -91,6 +91,6 @@ jobs:
       #     npm install
       #     npm run build
 
-      - name: Test with phpunit
+      - name: Test with PEST
         # env:
-        run: vendor/bin/pest --coverage
+        run: vendor/bin/pest -p --coverage
