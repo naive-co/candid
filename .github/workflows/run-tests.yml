@@ -86,11 +86,11 @@ jobs:
       # - name: Clear Config
       #   run: php artisan config:clear
 
-      - name: Compiling assets
-        run: |
-          npm install
-          npm run build
+      # - name: Compiling assets
+      #   run: |
+      #     npm install
+      #     npm run build
 
       - name: Test with phpunit
         # env:
-        run: vendor/bin/pest --ci --coverage-text
+        run: vendor/bin/pest --p --coverage
