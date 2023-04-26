@@ -1,3 +1,8 @@
+# 🚨 **WIP** 🚨
+## 🚧 **DO NOT USE RIGHT NOW** 🚧
+
+---
+
 # Naive-Co/Candid
 
 > Custom Laravel starter app. GDPR Compliant. Secure. Opinionated.
